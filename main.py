@@ -35,6 +35,8 @@ class LinkedInScraper:
         self.password = password
 
         self.options = webdriver.ChromeOptions()
+        self.options.add_argument("--headless")
+
         self.service = Service()
 
         self.driver = self.new_driver()
