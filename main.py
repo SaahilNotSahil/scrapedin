@@ -287,7 +287,7 @@ class LinkedInScraper:
     # Method to save the data to a csv file
 
     def to_csv(self, filename):
-        output_filename = filename.split(".")[0] + "_out.csv"
+        output_filename = filename.split("/")[-1].split(".")[0] + "_out.csv"
 
         try:
             df = pd.DataFrame(zip(self.names, self.profile_links, self.info))
@@ -303,7 +303,7 @@ class LinkedInScraper:
     # Method to save the data to a xlsx file
 
     def to_xlsx(self, filename):
-        output_filename = filename.split(".")[0] + "_out.xlsx"
+        output_filename = filename.split("/")[-1].split(".")[0] + "_out.xlsx"
 
         try:
             df = pd.DataFrame(zip(self.names, self.profile_links, self.info))

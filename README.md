@@ -27,3 +27,7 @@ python main.py /path/to/csv_or_xlsx
 ```
 Replace the path with the path of your .csv or .xlsx file
 - Once the scraping is completed, a new file will be created with the "_out" suffix in the project directory, containing the scraped info.
+
+
+#### Tested only on Linux.
+
