@@ -21,6 +21,11 @@ Set the variables in the .env file
 
 ## Usage
 - Make sure you have a .csv or a .xlsx file with the columns 'Full Name' and 'LinkedIn', consisting of the profiles that you wish to scrape.
+
+| Full Name      | LinkedIn                               | Info |
+| -------------- | -------------------------------------- | ---- |
+| Saahil Bhavsar | https://linkedin.com/in/saahil-bhavsar |      | 
+
 - Then run the following command:
 ```
 python main.py /path/to/csv_or_xlsx
